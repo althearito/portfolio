@@ -1,6 +1,14 @@
-export const SectionLayout = ({ title, subheading, children, id }) => {
+import { cn } from "../../lib/utils";
+
+export const SectionLayout = ({
+  title,
+  subheading,
+  children,
+  id,
+  className = "",
+}) => {
   return (
-    <section id={id} className="pb-8 px-6 lg:px-12 md:mr-16 lg:mr-0">
+    <section id={id} className={cn("pb-8 px-6 lg:px-12", className)}>
       <div className="max-w-6xl mx-auto mt-16">
         <div className="space-y-4 mb-8">
           <h2 className="text-4xl font-semibold tracking-tight">{title}</h2>

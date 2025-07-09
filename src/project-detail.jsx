@@ -30,7 +30,7 @@ export default function ProjectDetail() {
         <div className="mt-8 space-y-6">
           <div className="flex flex-col items-center ">
             <div className="md:flex w-24 h-24 aspect-video items-center justify-center rounded-2xl mb-6 overflow-hidden hidden">
-              <img src={project.img} alt={project.title} />
+              <img src={project.logo} alt={project.title} />
             </div>
             <div className=" text-2xl text-left font-semibold text-neutral-900 tracking-wide md:text-center md:text-4xl justify-center flex">
               <div className="max-w-2xl">{project.title}</div>
@@ -41,11 +41,7 @@ export default function ProjectDetail() {
             {project.type} | {project.date}
           </div>
           <div className="aspect-video flex items-center justify-center bg-blue-50 rounded-2xl">
-            <img
-              src={project.img}
-              alt={project.title}
-              className="w-16 h-16 opacity-80 group-hover:opacity-100 transition-opacity"
-            />
+            <img src={project.img} alt={project.title} className="" />
           </div>
           {/* Project Overview */}
           <div className="space-y-8">
@@ -177,18 +173,12 @@ export default function ProjectDetail() {
                       {feature.description}
                     </p>
                   </div>
-                  <div
-                    className={
-                      index % 2 === 1
-                        ? "md:order-1 bg-blue-100"
-                        : "bg-neutral-100"
-                    }
-                  >
+                  <div className={index % 2 === 1 ? "md:order-1" : ""}>
                     <div className="relative aspect-video rounded-lg overflow-hidden flex items-center justify-center">
                       <img
                         src={feature.img}
                         alt={feature.title}
-                        className="fill object-cover w-24 h-24"
+                        className="fill object-cover"
                       />
                     </div>
                   </div>

@@ -20,7 +20,7 @@ export default function App() {
 
         <div
           id="hero"
-          className="py-16 pb-8 pt-72 px-6 mb-8 md:mr-16 lg:mr-0 lg:px-12"
+          className="py-16 pb-8 lg:pt-72 pt-60 px-6 mb-8 md:mr-16 lg:mr-0 lg:px-12"
         >
           <div className="space-y-6 max-w-6xl mx-auto">
             <h1 className="text-2xl font-light text-neutral-900 tracking-wide">
@@ -191,7 +191,7 @@ export default function App() {
               >
                 <div className="aspect-video bg-white flex items-center justify-center">
                   <img
-                    src={project.img || "/placeholder.svg"}
+                    src={project.logo || "/placeholder.svg"}
                     alt={project.title}
                     className="w-40 h-40 opacity-80 group-hover:opacity-100 transition-opacity"
                   />
@@ -216,7 +216,7 @@ export default function App() {
 
                   <Link
                     to={`/projects/${project.id}`}
-                    className="inline-flex items-center gap-2 text-neutral-900 font-medium hover:gap-3 transition-all duration-300 border border-neutral-200 rounded-full py-2 px-4"
+                    className="inline-flex items-center gap-2 text-neutral-900 font-medium hover:gap-3 transition-all duration-300 border border-neutral-200 rounded-full py-2 px-4 bg-neutral-100"
                   >
                     View Case Study
                     <ArrowUpRight className="w-4 h-4" />

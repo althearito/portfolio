@@ -7,12 +7,11 @@ const projects = [
     duration: "4 months",
     keywords: ["Mobile Design", "User Research"],
     description:
-      "A mobile-first platform connecting New Zealand homeowners with local tradies. Designed the full UI system, including wireframes, high-fidelity prototypes, and reusable components.",
+      "A mobile-first platform connecting New Zealand homeowners with local tradies. Designed the full UI system from scratch, including wireframes, high-fidelity prototypes, and a scalable component library in Figma. Focused on user-friendly flows for job posting, tradie discovery, and real-time scheduling. Incorporated user research insights and collaborated closely with the development team in an Agile environment to ensure pixel-perfect implementation across iOS and Android platforms.",
     challenge:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "Homeowners in New Zealand often face difficulty finding trusted local tradespeople due to fragmented listings, lack of user reviews, and outdated interfaces. The goal was to create a seamless platform that connects users with verified tradies efficiently and with confidence.",
     solution:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-
+      "Fixo was designed as a streamlined mobile app where users can easily post job requests, browse verified tradies, and schedule services. The solution focused on a clean UI, intuitive flows, and real-time booking features tailored to Kiwi homeowners.",
     role: [
       "Lead UI/UX Designer",
       "User Research",
@@ -21,22 +20,22 @@ const projects = [
     ],
     features: [
       {
-        img: "../assets/sample_logo.png",
-        title: "Find a Reliable Tradie",
-        description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      },
-      {
-        img: "../assets/sample_logo.png",
+        img: "../assets/post-job.png",
         title: "Post A Job",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "Users can quickly submit detailed job requests, selecting categories and specifying requirements. The design emphasized simplicity and guidance through form steps to reduce friction.",
       },
       {
-        img: "../assets/sample_logo.png",
+        img: "../assets/book-tradie.png",
+        title: "Find a Reliable Tradie",
+        description:
+          "Search and filter results based on location, reviews, and specialization. Each tradie profile was designed to show relevant credentials and previous work to build trust.",
+      },
+      {
+        img: "../assets/schedule.png",
         title: "Schedule Work",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "Integrated calendar and booking features allow users to set appointments directly with their chosen tradie. Designed with accessibility and responsive feedback in mind.",
       },
     ],
     design_process: "Agile UX",
@@ -66,13 +65,14 @@ const projects = [
           "Tested designs with dev QAs after each sprint and refined UI elements based on feedback to improve usability and clarity.",
       },
     ],
-    img: "../assets/fixo-logo.png",
+    logo: "../assets/fixo-logo.png",
+    img: "../assets/fixo-splash.png",
   },
   {
     id: 2,
     title: "Memoire – Memory Photo & Video Sharing Platform",
     date: "2025",
-    type: "Web Application",
+    type: "Web App",
     duration: "4 months",
     keywords: ["Mobile Design", "User Research"],
     description:
@@ -135,6 +135,7 @@ const projects = [
           "Tested designs with dev QAs after each sprint and refined UI elements based on feedback to improve usability and clarity.",
       },
     ],
+    logo: "../assets/memoire-logo.png",
     img: "../assets/memoire-logo.png",
   },
   {
@@ -203,75 +204,72 @@ const projects = [
           "Tested designs with dev QAs after each sprint and refined UI elements based on feedback to improve usability and clarity.",
       },
     ],
+    logo: "../assets/fido-logo.png",
     img: "../assets/fido-logo.png",
   },
   {
     id: 4,
-    title: "Fixo – A Mobile Solution for Hiring Trusted Tradies in New Zealand",
-    date: "2025",
-    type: "Mobile App",
-    duration: "4 months",
-    keywords: ["Mobile Design", "User Research"],
+    title: "ACCESS PH – Interface Redesign for Software Services",
+    date: "2024",
+    type: "Redesign",
+    duration: "1 month",
+    keywords: ["Interface Redesign", "User Flow", "Client Collaboration"],
     description:
-      "A mobile-first platform connecting New Zealand homeowners with local tradies. Designed the full UI system, including wireframes, high-fidelity prototypes, and reusable components.",
+      "Redesigned the corporate website of a local software development agency to enhance user navigation, layout clarity, and visual consistency. Delivered high-fidelity mockups aligned with modern UI trends and client expectations.",
     challenge:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "The original website layout was outdated and cluttered, making it difficult for potential clients to understand the company’s services and navigate between sections. There was no visual hierarchy or clear call-to-action, leading to poor user engagement.",
     solution:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    role: [
-      "Lead UI/UX Designer",
-      "User Research",
-      "Prototyping",
-      "Design System",
-    ],
+      "Worked closely with the developer to revamp the overall site structure. Created a modern layout with clean sections, stronger visual hierarchy, and more intuitive navigation. Streamlined content presentation and added clear CTAs to improve conversions.",
+    role: ["UI Designer"],
     features: [
       {
-        img: "../assets/sample_logo.png",
-        title: "Find a Reliable Tradie",
+        img: "../assets/clean-layout.png",
+        title: "Modern Clean Layout",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "Introduced a minimalist design system with better spacing, typography, and consistent visual hierarchy to enhance readability and appeal.",
       },
       {
-        img: "../assets/sample_logo.png",
-        title: "Post A Job",
+        img: "../assets/navigation-ui.png",
+        title: "Improved Navigation",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "Redesigned the site structure and navigation bar to simplify the user journey and ensure better access to core service information.",
       },
       {
-        img: "../assets/sample_logo.png",
-        title: "Schedule Work",
+        img: "../assets/client-feedback.png",
+        title: "Client-Aligned Mockups",
         description:
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "Presented interactive mockups for feedback, iterating on key sections to reflect the client’s branding, service strengths, and content priorities.",
       },
     ],
-    design_process: "Agile UX",
+    design_process: "Design Thinking",
     process: [
       {
         id: 1,
-        title: "Planning & Research",
+        title: "Empathize",
         description:
-          "Conducted user and cultural research to define personas, map user needs, and plan sprint-aligned design goals.",
+          "Analyzed the client’s goals and current site pain points through feedback and manual walkthroughs.",
       },
       {
         id: 2,
-        title: "Design & Prototyping",
+        title: "Define",
         description:
-          "Created wireframes, prototypes, and UI components in Figma based on sprint priorities and evolving requirements.",
+          "Outlined key usability issues and created a problem statement centered on clarity and navigation improvement.",
       },
       {
         id: 3,
-        title: "Collaboration & Handoff",
+        title: "Ideate",
         description:
-          "Worked closely with developers during sprints to align on implementation, ensuring smooth handoff and real-time feedback.",
+          "Sketched layout alternatives and evaluated different visual approaches based on current UI trends and user expectations.",
       },
       {
         id: 4,
-        title: "Usability Testing & Iteration",
+        title: "Prototype & Test",
         description:
-          "Tested designs with dev QAs after each sprint and refined UI elements based on feedback to improve usability and clarity.",
+          "Built high-fidelity mockups in Figma and gathered client feedback for two rounds of revisions before final approval.",
       },
     ],
-    img: "../assets/fixo-logo.png",
+    logo: "../assets/access-logo.png",
+    img: "../assets/access-ph.png",
   },
 ];
 
