@@ -27,17 +27,22 @@ export default function ProjectDetail() {
         </nav>
 
         {/* Title */}
-        <div className="mt-8 space-y-6">
-          <div className="flex flex-col items-center ">
-            <div className="md:flex w-24 h-24 aspect-video items-center justify-center rounded-2xl mb-6 overflow-hidden hidden">
-              <img src={project.logo} alt={project.title} />
+        <div className="mt-0 space-y-6">
+          <div className="flex flex-col items-center">
+            <div className="h-32 w-1/3 relative">
+              <img
+                src={project.logo}
+                alt={project.title}
+                className="w-full h-full object-cover"
+              />
             </div>
+
             <div className=" text-2xl text-left font-semibold text-neutral-900 tracking-wide md:text-center md:text-4xl justify-center flex">
-              <div className="max-w-2xl">{project.title}</div>
+              <h1 className="max-w-2xl">{project.title}</h1>
             </div>
           </div>
 
-          <div className="text-neutral-900 tracking-wide md:text-center md:text-xl ">
+          <div className="text-neutral-900 tracking-wide md:text-center md:text-xl">
             {project.type} | {project.date}
           </div>
           <div className="aspect-video flex items-center justify-center bg-blue-50 rounded-2xl">
@@ -90,7 +95,11 @@ export default function ProjectDetail() {
                 <div className="font-semibold text-neutral-900 tracking-wide ">
                   The Team
                 </div>
-                <div className="text-neutral-600">{project.duration}</div>
+                <div className="text-neutral-600">
+                  {project.team.map((team, index) => (
+                    <p key={index}>{team}</p>
+                  ))}
+                </div>
               </div>
               {project.role && (
                 <div className="border border-neutral-200 rounded-xl p-4 space-y-2">

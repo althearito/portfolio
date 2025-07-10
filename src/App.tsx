@@ -20,7 +20,7 @@ export default function App() {
 
         <div
           id="hero"
-          className="py-16 pb-8 lg:pt-72 pt-60 px-6 mb-8 md:mr-16 lg:mr-0 lg:px-12"
+          className="py-16 pb-8 lg:pt-72 pt-48 md:pt-60 px-2 mb-8 md:mr-16 lg:mr-0 lg:px-12"
         >
           <div className="space-y-6 max-w-6xl mx-auto">
             <h1 className="text-2xl font-light text-neutral-900 tracking-wide">
@@ -57,7 +57,7 @@ export default function App() {
                 View My Projects
               </Link>
 
-              <a
+              {/* <a
                 href="/resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -65,7 +65,7 @@ export default function App() {
               >
                 <Download />
                 Download Resume
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function App() {
         {/* About */}
         <section
           id="about"
-          className="pt-24 pb-8 px-6 lg:px-12 md:mr-16 lg:mr-0"
+          className="pt-24 pb-8 px-2 lg:px-12 md:mr-16 lg:mr-0"
         >
           <div className="max-w-6xl mx-auto ">
             <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -193,7 +193,7 @@ export default function App() {
                   <img
                     src={project.logo || "/placeholder.svg"}
                     alt={project.title}
-                    className="w-40 h-40 opacity-80 group-hover:opacity-100 transition-opacity"
+                    className=" opacity-80 group-hover:opacity-100 transition-opacity"
                   />
                 </div>
                 <div className="p-8 space-y-6">

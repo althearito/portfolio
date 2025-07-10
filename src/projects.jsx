@@ -3,6 +3,7 @@ import { SectionLayout } from "./components/layout/section-layout";
 import { ArrowLeft, ArrowUpRight } from "lucide-react";
 import { useProjects } from "./hooks/use-projects";
 import { cn } from "./lib/utils";
+import Footer from "./components/layout/footer";
 
 export default function Projects() {
   const navigation = useNavigate();
@@ -54,13 +55,13 @@ export default function Projects() {
             {projects.map((project, index) => (
               <div
                 key={index}
-                className="group bg-white rounded-2xl border border-neutral-200 overflow-hidden hover:border-neutral-300 hover:shadow-lg transition-all duration-300"
+                className="group bg-white rounded-md border border-neutral-200 overflow-hidden hover:border-neutral-300 hover:shadow-lg transition-all duration-300"
               >
                 <div className="aspect-video bg-white flex items-center justify-center">
                   <img
                     src={project.logo || "/placeholder.svg"}
                     alt={project.title}
-                    className="w-40 h-40 opacity-80 group-hover:opacity-100 transition-opacity"
+                    className="aspect-video opacity-95 group-hover:opacity-100 transition-opacity"
                   />
                 </div>
                 <div className="p-8 space-y-6">
@@ -101,6 +102,7 @@ export default function Projects() {
           </p>
         )}
       </SectionLayout>
+      <Footer />
     </div>
   );
 }

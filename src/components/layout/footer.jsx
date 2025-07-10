@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer
       id="contact"
-      className="py-16 px-6 lg:px-12 bg-neutral-900 text-white mt-16"
+      className="py-16 px-2 lg:px-12 bg-neutral-900 text-white mt-16"
     >
       <div className="max-w-9/12 md:max-w-11/12 xl:max-w-7/12 mx-auto ">
         <div className="grid md:grid-cols-2 gap-12 items-start ml-0 xl:ml-12">
