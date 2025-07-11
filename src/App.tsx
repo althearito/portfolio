@@ -20,7 +20,7 @@ export default function App() {
 
         <div
           id="hero"
-          className="py-16 pb-8 lg:pt-72 pt-48 md:pt-60 px-2 mb-8 md:mr-16 lg:mr-0 lg:px-12"
+          className="py-16 pb-8 lg:pt-72 pt-32 md:pt-60 px-2 mb-8 md:mr-16 lg:mr-0 lg:px-12"
         >
           <div className="space-y-6 max-w-6xl mx-auto">
             <h1 className="text-2xl font-light text-neutral-900 tracking-wide">
@@ -224,6 +224,12 @@ export default function App() {
                 </div>
               </div>
             ))}
+            <Link
+              to="/projects"
+              className="w-fit group inline-flex items-center gap-2 bg-neutral-900 text-white px-8 py-4 *:md:px-8 md:py-4 rounded-full text-sm font-medium hover:bg-neutral-800 transition-all duration-300 hover:scale-105"
+            >
+              View All Projects
+            </Link>
           </div>
         </SectionLayout>
       </div>

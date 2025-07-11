@@ -287,7 +287,7 @@ const projects = [
           "Developed a clickable prototype and conducted rapid feedback sessions with stakeholders to iterate on design, layout, and content structure.",
       },
     ],
-    logo: "../assets/landing-page/gcrait/gcrait-cover.png",
+    logo: "../assets/landing-page/gcrait/gcrait-logo.png",
     img: "../assets/landing-page/gcrait/gcrait.png",
   },
   // THE PASTA --unfinished
@@ -487,8 +487,8 @@ const projects = [
           "Built high-fidelity mockups in Figma and gathered client feedback for two rounds of revisions before final approval.",
       },
     ],
-    logo: "../assets/landing-page/access/AccessPH-cover.png",
-    img: "../assets/landing-page/access/AccessPH-cover.png",
+    logo: "../assets/redesign/access-logo.png",
+    img: "../assets/landing-page/access/AccessPH.png",
   },
 ];
 
