@@ -78,6 +78,291 @@ const projects = [
     logo: "../assets/mobile-app/fixo-logo.png",
     img: "../assets/mobile-app/fixo.png",
   },
+  // THE PASTA --unfinished
+  {
+    id: 5,
+    title: "The Pasta Place – Restaurant Landing Page",
+    date: "2024",
+    type: "Landing Page",
+    duration: "1 week",
+    team: ["UI/UX Designer"],
+    keywords: ["Landing Page", "Visual Design", "Restaurant", "Responsive Web"],
+    description:
+      "A mouth‑watering single‑page website for an artisan pasta restaurant, crafted to showcase signature dishes, highlight daily specials, and drive online reservations through a clean, appetizing visual style.",
+
+    challenge:
+      "The restaurant relied on social media posts for marketing, which lacked a cohesive brand presence and offered no direct way to reserve tables or view the full menu. Customers frequently messaged staff for basic information, slowing service and reducing bookings.",
+
+    solution:
+      "Designed a responsive landing page with an enticing hero section, interactive menu gallery, and one‑click reservation form. The site features rich food photography, warm color tones, and clear calls‑to‑action to convert casual browsers into confirmed diners.",
+
+    role: ["UI Designer", "UX Researcher"],
+
+    features: [
+      {
+        img: "../assets/placeholder.png",
+        title: "Hero Section with Quick Actions",
+        description:
+          "A visually rich hero banner with inviting imagery, paired with two primary CTAs — 'View Menu' and 'Reserve a Table' — allowing users to take immediate action upon landing.",
+      },
+      {
+        img: "../assets/placeholder.png",
+        title: "Top Picks Carousel",
+        description:
+          "An auto-sliding carousel showcasing best-selling pasta dishes with vibrant images and brief descriptions to entice food lovers and highlight customer favorites.",
+      },
+      {
+        img: "../assets/placeholder.png",
+        title: "Branch Locations",
+        description:
+          "Interactive section listing all available branches with maps, contact info, and store hours to help users easily find and visit the nearest location.",
+      },
+    ],
+
+    design_process: "Design Thinking",
+
+    process: [
+      {
+        id: 1,
+        title: "Empathize",
+        description:
+          "Interviewed owners and frequent customers to uncover pain points around menu visibility and booking friction.",
+      },
+      {
+        id: 2,
+        title: "Define",
+        description:
+          "Framed the core problem: ‘How might we help diners discover dishes and book a table in under two minutes?’",
+      },
+      {
+        id: 3,
+        title: "Ideate",
+        description:
+          "Sketched multiple layout concepts, prioritizing food photography, brand color palette (warm creams & reds), and mobile‑first navigation.",
+      },
+      {
+        id: 4,
+        title: "Prototype & Test",
+        description:
+          "Built a high‑fidelity Figma prototype and ran hallway‑tests with five diners, iterating on CTA placement and menu card readability.",
+      },
+    ],
+
+    logo: "../assets/landing-page/the-pasta/the-pasta-logo.png",
+    img: "../assets/landing-page/the-pasta/the-pasta1.png",
+  },
+
+  // GCRAIT
+  {
+    id: 4,
+    title:
+      "GCRAIT – Global Conference on Robotics and Artificial Intelligence Technologies",
+    date: "2024",
+    type: "Landing Page",
+    duration: "2 months",
+    team: ["Organizers", "Developer", "UI/UX Designer"],
+    keywords: ["School Event", "Collaboration", "User Flow"],
+    description:
+      "GCRAIT is the official landing page for a school-wide conference focused on innovations in robotics and artificial intelligence. The site was developed to centralize information about the event's activities, showcase featured talks and competitions, and guide participants through registration and submission requirements. Designed for both students and industry professionals, the platform ensured that all content was accessible, engaging, and easy to navigate.",
+    challenge:
+      "Information about the various activities, submission guidelines, and registration procedures were previously scattered across social media posts and documents, causing confusion for both participants and organizers. There was a need for a centralized, visually engaging platform to streamline communication and improve participant experience.",
+    solution:
+      "We designed a landing page that clearly outlined the conference details, including schedules, speaker profiles, competition mechanics, and submission guidelines. A clean layout with clear hierarchy and intuitive navigation was implemented to support quick access to key information and ensure a smooth onboarding experience for all attendees.",
+    role: ["UI/UX Designer", "Information Architect", "UX Researcher"],
+    features: [
+      {
+        img: "../assets/placeholder.png",
+        title: "Robotalks",
+        description:
+          "An academic and industry-led talk series discussing the latest trends in robotics and artificial intelligence, featuring expert speakers from local institutions and international partners.",
+      },
+      {
+        img: "../assets/placeholder.png",
+        title: "Sumobot",
+        description:
+          "A high-energy competition where student-built robots battle to push each other out of a ring, testing mechanical design, logic, and programming under pressure.",
+      },
+      {
+        img: "../assets/placeholder.png",
+        title: "Mobot Race",
+        description:
+          "A line-tracing robot race that challenges participants to program autonomous mobile bots to follow complex track layouts accurately and quickly.",
+      },
+    ],
+    design_process: "Design Thinking",
+    process: [
+      {
+        id: 1,
+        title: "Empathize",
+        description:
+          "Interviewed organizers, faculty, and participants to understand their needs, confusion points, and expectations about the event platform.",
+      },
+      {
+        id: 2,
+        title: "Define",
+        description:
+          "Mapped out core user journeys—registrants, competitors, and general visitors—to identify key pages and user flows needed on the site.",
+      },
+      {
+        id: 3,
+        title: "Ideate",
+        description:
+          "Created low-fidelity wireframes and layout sketches to explore multiple ways of presenting the event’s content in an intuitive and inviting way.",
+      },
+      {
+        id: 4,
+        title: "Prototype & Test",
+        description:
+          "Developed a clickable prototype and conducted rapid feedback sessions with stakeholders to iterate on design, layout, and content structure.",
+      },
+    ],
+    logo: "../assets/landing-page/gcrait/gcrait-logo.png",
+    img: "../assets/landing-page/gcrait/gcrait.png",
+  },
+  // Anifest --unfinished
+  {
+    id: 6,
+    title: "Animation Festival 2025",
+    date: "2025",
+    type: "Landing Page",
+    duration: "1 month",
+    team: ["Organizers", "UI/UX Designer", "Developer"],
+    keywords: [
+      "School Event",
+      "Design System",
+      "International Collaboration",
+      "Animation",
+      "Visual Design",
+    ],
+    description:
+      "The Animation Festival website serves as the central hub for a creative collaboration between our school and Korean academic partners. Designed to showcase student works and facilitate participation in workshops and competitions, the platform celebrates storytelling through various animation disciplines. It highlights key event segments while providing users with schedules, speaker features, and submission guidelines.",
+    challenge:
+      "Promotional materials and registration details were previously spread across multiple posters and chat groups, which led to confusion among students and international guests. There was no unified platform to showcase student talents or guide users through event participation efficiently.",
+    solution:
+      "We built a responsive and visually engaging landing page that aligned with the creative theme of the event. The design emphasized accessibility, intuitive navigation, and a modern aesthetic tailored to animation students and enthusiasts. The site included interactive sections for categories, event guidelines, submission forms, and updates from organizers.",
+    role: ["UI/UX Designer", "Information Architect", "Visual Designer"],
+    features: [
+      {
+        img: "../assets/placeholder.png",
+        title: "2D Animation",
+        description:
+          "Highlights student-created 2D animation entries, from traditional frame-by-frame to vector-based storytelling, celebrating foundational techniques and expressive motion.",
+      },
+      {
+        img: "../assets/placeholder.png",
+        title: "3D Animation",
+        description:
+          "Showcases character modeling, rigging, and animated scenes created using 3D software, with contributions from both local and Korean student teams.",
+      },
+      {
+        img: "../assets/placeholder.png",
+        title: "Digital Storyboarding",
+        description:
+          "An interactive section featuring digital storyboards that visualize narrative flow, timing, and camera movements behind each animation concept.",
+      },
+      {
+        img: "../assets/placeholder.png",
+        title: "Digital Illustration",
+        description:
+          "A curated gallery of digital artworks and concept illustrations developed for the event, showcasing creativity, style, and character design from participants.",
+      },
+    ],
+    design_process: "Design Thinking",
+    process: [
+      {
+        id: 1,
+        title: "Empathize",
+        description:
+          "Gathered insights from organizers, participants, and international partners to understand their needs, expectations, and technical constraints.",
+      },
+      {
+        id: 2,
+        title: "Define",
+        description:
+          "Identified major user flows—submission, information access, and browsing—and mapped out necessary content sections and layout priorities.",
+      },
+      {
+        id: 3,
+        title: "Ideate",
+        description:
+          "Sketched out wireframes and user flows, focusing on clarity, visual storytelling, and a creative yet functional interface structure.",
+      },
+      {
+        id: 4,
+        title: "Prototype & Test",
+        description:
+          "Developed prototypes for early feedback from students and faculty. Revised layout and visual style based on usability and branding feedback.",
+      },
+    ],
+    logo: "../assets/landing-page/animation-fest/animation-fest-logo.png",
+    img: "../assets/landing-page/animation-fest/animation-fest.png",
+  },
+  // ACCESS --unfinished
+  {
+    id: 7,
+    title: "ACCESS PH – Interface Redesign for Software Services",
+    date: "2024",
+    type: "Redesign",
+    duration: "1 month",
+    team: ["Developer", "UI/UX Designer"],
+    keywords: ["Interface Redesign", "User Flow", "Client Collaboration"],
+    description:
+      "Redesigned the corporate website of a local software development agency to enhance user navigation, layout clarity, and visual consistency. Delivered high-fidelity mockups aligned with modern UI trends and client expectations.",
+    challenge:
+      "The original website layout was outdated and cluttered, making it difficult for potential clients to understand the company’s services and navigate between sections. There was no visual hierarchy or clear call-to-action, leading to poor user engagement.",
+    solution:
+      "Worked closely with the developer to revamp the overall site structure. Created a modern layout with clean sections, stronger visual hierarchy, and more intuitive navigation. Streamlined content presentation and added clear CTAs to improve conversions.",
+    role: ["UI Designer"],
+    features: [
+      {
+        img: "../assets/placeholder.png",
+        title: "Modern Clean Layout",
+        description:
+          "Introduced a minimalist design system with better spacing, typography, and consistent visual hierarchy to enhance readability and appeal.",
+      },
+      {
+        img: "../assets/placeholder.png",
+        title: "Improved Navigation",
+        description:
+          "Redesigned the site structure and navigation bar to simplify the user journey and ensure better access to core service information.",
+      },
+      {
+        img: "../assets/placeholder.png",
+        title: "Client-Aligned Mockups",
+        description:
+          "Presented interactive mockups for feedback, iterating on key sections to reflect the client’s branding, service strengths, and content priorities.",
+      },
+    ],
+    design_process: "Design Thinking",
+    process: [
+      {
+        id: 1,
+        title: "Empathize",
+        description:
+          "Analyzed the client’s goals and current site pain points through feedback and manual walkthroughs.",
+      },
+      {
+        id: 2,
+        title: "Define",
+        description:
+          "Outlined key usability issues and created a problem statement centered on clarity and navigation improvement.",
+      },
+      {
+        id: 3,
+        title: "Ideate",
+        description:
+          "Sketched layout alternatives and evaluated different visual approaches based on current UI trends and user expectations.",
+      },
+      {
+        id: 4,
+        title: "Prototype & Test",
+        description:
+          "Built high-fidelity mockups in Figma and gathered client feedback for two rounds of revisions before final approval.",
+      },
+    ],
+    logo: "../assets/redesign/access-logo.png",
+    img: "../assets/landing-page/access/AccessPH.png",
+  },
   // MEMOIRE --unfinished
   {
     id: 2,
@@ -222,273 +507,6 @@ const projects = [
     ],
     logo: "../assets/web-app/fido-logo.png",
     img: "../assets/placeholder.png",
-  },
-  // GCRAIT
-  {
-    id: 4,
-    title:
-      "GCRAIT – Global Conference on Robotics and Artificial Intelligence Technologies",
-    date: "2024",
-    type: "Landing Page",
-    duration: "2 months",
-    team: ["Organizers", "Developer", "UI/UX Designer"],
-    keywords: ["School Event", "Collaboration", "User Flow"],
-    description:
-      "GCRAIT is the official landing page for a school-wide conference focused on innovations in robotics and artificial intelligence. The site was developed to centralize information about the event's activities, showcase featured talks and competitions, and guide participants through registration and submission requirements. Designed for both students and industry professionals, the platform ensured that all content was accessible, engaging, and easy to navigate.",
-    challenge:
-      "Information about the various activities, submission guidelines, and registration procedures were previously scattered across social media posts and documents, causing confusion for both participants and organizers. There was a need for a centralized, visually engaging platform to streamline communication and improve participant experience.",
-    solution:
-      "We designed a landing page that clearly outlined the conference details, including schedules, speaker profiles, competition mechanics, and submission guidelines. A clean layout with clear hierarchy and intuitive navigation was implemented to support quick access to key information and ensure a smooth onboarding experience for all attendees.",
-    role: ["UI/UX Designer", "Information Architect", "UX Researcher"],
-    features: [
-      {
-        img: "../assets/placeholder.png",
-        title: "Robotalks",
-        description:
-          "An academic and industry-led talk series discussing the latest trends in robotics and artificial intelligence, featuring expert speakers from local institutions and international partners.",
-      },
-      {
-        img: "../assets/placeholder.png",
-        title: "Sumobot",
-        description:
-          "A high-energy competition where student-built robots battle to push each other out of a ring, testing mechanical design, logic, and programming under pressure.",
-      },
-      {
-        img: "../assets/placeholder.png",
-        title: "Mobot Race",
-        description:
-          "A line-tracing robot race that challenges participants to program autonomous mobile bots to follow complex track layouts accurately and quickly.",
-      },
-    ],
-    design_process: "Design Thinking",
-    process: [
-      {
-        id: 1,
-        title: "Empathize",
-        description:
-          "Interviewed organizers, faculty, and participants to understand their needs, confusion points, and expectations about the event platform.",
-      },
-      {
-        id: 2,
-        title: "Define",
-        description:
-          "Mapped out core user journeys—registrants, competitors, and general visitors—to identify key pages and user flows needed on the site.",
-      },
-      {
-        id: 3,
-        title: "Ideate",
-        description:
-          "Created low-fidelity wireframes and layout sketches to explore multiple ways of presenting the event’s content in an intuitive and inviting way.",
-      },
-      {
-        id: 4,
-        title: "Prototype & Test",
-        description:
-          "Developed a clickable prototype and conducted rapid feedback sessions with stakeholders to iterate on design, layout, and content structure.",
-      },
-    ],
-    logo: "../assets/landing-page/gcrait/gcrait-logo.png",
-    img: "../assets/landing-page/gcrait/gcrait.png",
-  },
-  // THE PASTA --unfinished
-  // {
-  //   id: 5,
-  //   title: "The Pasta Place",
-  //   date: "2024",
-  //   type: "Redesign",
-  //   duration: "1 month",
-  //   team: ["Project Manager", "Developers", "UI/UX Designers", "QA Testers"],
-
-  //   keywords: ["Interface Redesign", "User Flow", "Client Collaboration"],
-  //   description:
-  //     "Redesigned the corporate website of a local software development agency to enhance user navigation, layout clarity, and visual consistency. Delivered high-fidelity mockups aligned with modern UI trends and client expectations.",
-  //   challenge:
-  //     "The original website layout was outdated and cluttered, making it difficult for potential clients to understand the company’s services and navigate between sections. There was no visual hierarchy or clear call-to-action, leading to poor user engagement.",
-  //   solution:
-  //     "Worked closely with the developer to revamp the overall site structure. Created a modern layout with clean sections, stronger visual hierarchy, and more intuitive navigation. Streamlined content presentation and added clear CTAs to improve conversions.",
-  //   role: ["UI Designer"],
-  //   features: [
-  //     {
-  //       img: "../assets/clean-layout.png",
-  //       title: "Modern Clean Layout",
-  //       description:
-  //         "Introduced a minimalist design system with better spacing, typography, and consistent visual hierarchy to enhance readability and appeal.",
-  //     },
-  //     {
-  //       img: "../assets/navigation-ui.png",
-  //       title: "Improved Navigation",
-  //       description:
-  //         "Redesigned the site structure and navigation bar to simplify the user journey and ensure better access to core service information.",
-  //     },
-  //     {
-  //       img: "../assets/client-feedback.png",
-  //       title: "Client-Aligned Mockups",
-  //       description:
-  //         "Presented interactive mockups for feedback, iterating on key sections to reflect the client’s branding, service strengths, and content priorities.",
-  //     },
-  //   ],
-  //   design_process: "Design Thinking",
-  //   process: [
-  //     {
-  //       id: 1,
-  //       title: "Empathize",
-  //       description:
-  //         "Analyzed the client’s goals and current site pain points through feedback and manual walkthroughs.",
-  //     },
-  //     {
-  //       id: 2,
-  //       title: "Define",
-  //       description:
-  //         "Outlined key usability issues and created a problem statement centered on clarity and navigation improvement.",
-  //     },
-  //     {
-  //       id: 3,
-  //       title: "Ideate",
-  //       description:
-  //         "Sketched layout alternatives and evaluated different visual approaches based on current UI trends and user expectations.",
-  //     },
-  //     {
-  //       id: 4,
-  //       title: "Prototype & Test",
-  //       description:
-  //         "Built high-fidelity mockups in Figma and gathered client feedback for two rounds of revisions before final approval.",
-  //     },
-  //   ],
-  //   logo: "../assets/landing-page/the-pasta/the-pasta-cover.png",
-  //   img: "../assets/access-ph.png",
-  // },
-  // Anifest --unfinished
-  // {
-  //   id: 6,
-  //   title: "Animation Festival",
-  //   date: "2024",
-  //   type: "Redesign",
-  //   duration: "1 month",
-  //   team: ["Project Manager", "Developers", "UI/UX Designers", "QA Testers"],
-
-  //   keywords: ["Interface Redesign", "User Flow", "Client Collaboration"],
-  //   description:
-  //     "Redesigned the corporate website of a local software development agency to enhance user navigation, layout clarity, and visual consistency. Delivered high-fidelity mockups aligned with modern UI trends and client expectations.",
-  //   challenge:
-  //     "The original website layout was outdated and cluttered, making it difficult for potential clients to understand the company’s services and navigate between sections. There was no visual hierarchy or clear call-to-action, leading to poor user engagement.",
-  //   solution:
-  //     "Worked closely with the developer to revamp the overall site structure. Created a modern layout with clean sections, stronger visual hierarchy, and more intuitive navigation. Streamlined content presentation and added clear CTAs to improve conversions.",
-  //   role: ["UI Designer"],
-  //   features: [
-  //     {
-  //       img: "../assets/clean-layout.png",
-  //       title: "Modern Clean Layout",
-  //       description:
-  //         "Introduced a minimalist design system with better spacing, typography, and consistent visual hierarchy to enhance readability and appeal.",
-  //     },
-  //     {
-  //       img: "../assets/navigation-ui.png",
-  //       title: "Improved Navigation",
-  //       description:
-  //         "Redesigned the site structure and navigation bar to simplify the user journey and ensure better access to core service information.",
-  //     },
-  //     {
-  //       img: "../assets/client-feedback.png",
-  //       title: "Client-Aligned Mockups",
-  //       description:
-  //         "Presented interactive mockups for feedback, iterating on key sections to reflect the client’s branding, service strengths, and content priorities.",
-  //     },
-  //   ],
-  //   design_process: "Design Thinking",
-  //   process: [
-  //     {
-  //       id: 1,
-  //       title: "Empathize",
-  //       description:
-  //         "Analyzed the client’s goals and current site pain points through feedback and manual walkthroughs.",
-  //     },
-  //     {
-  //       id: 2,
-  //       title: "Define",
-  //       description:
-  //         "Outlined key usability issues and created a problem statement centered on clarity and navigation improvement.",
-  //     },
-  //     {
-  //       id: 3,
-  //       title: "Ideate",
-  //       description:
-  //         "Sketched layout alternatives and evaluated different visual approaches based on current UI trends and user expectations.",
-  //     },
-  //     {
-  //       id: 4,
-  //       title: "Prototype & Test",
-  //       description:
-  //         "Built high-fidelity mockups in Figma and gathered client feedback for two rounds of revisions before final approval.",
-  //     },
-  //   ],
-  //   logo: "../assets/landing-page/animation-fest/animation-fest-cover.png",
-  //   img: "../assets/access-ph.png",
-  // },
-  // ACCESS --unfinished
-  {
-    id: 7,
-    title: "ACCESS PH – Interface Redesign for Software Services",
-    date: "2024",
-    type: "Redesign",
-    duration: "1 month",
-    team: ["Developer", "UI/UX Designer"],
-    keywords: ["Interface Redesign", "User Flow", "Client Collaboration"],
-    description:
-      "Redesigned the corporate website of a local software development agency to enhance user navigation, layout clarity, and visual consistency. Delivered high-fidelity mockups aligned with modern UI trends and client expectations.",
-    challenge:
-      "The original website layout was outdated and cluttered, making it difficult for potential clients to understand the company’s services and navigate between sections. There was no visual hierarchy or clear call-to-action, leading to poor user engagement.",
-    solution:
-      "Worked closely with the developer to revamp the overall site structure. Created a modern layout with clean sections, stronger visual hierarchy, and more intuitive navigation. Streamlined content presentation and added clear CTAs to improve conversions.",
-    role: ["UI Designer"],
-    features: [
-      {
-        img: "../assets/placeholder].png",
-        title: "Modern Clean Layout",
-        description:
-          "Introduced a minimalist design system with better spacing, typography, and consistent visual hierarchy to enhance readability and appeal.",
-      },
-      {
-        img: "../assets/placeholder.png",
-        title: "Improved Navigation",
-        description:
-          "Redesigned the site structure and navigation bar to simplify the user journey and ensure better access to core service information.",
-      },
-      {
-        img: "../assets/placeholder.png",
-        title: "Client-Aligned Mockups",
-        description:
-          "Presented interactive mockups for feedback, iterating on key sections to reflect the client’s branding, service strengths, and content priorities.",
-      },
-    ],
-    design_process: "Design Thinking",
-    process: [
-      {
-        id: 1,
-        title: "Empathize",
-        description:
-          "Analyzed the client’s goals and current site pain points through feedback and manual walkthroughs.",
-      },
-      {
-        id: 2,
-        title: "Define",
-        description:
-          "Outlined key usability issues and created a problem statement centered on clarity and navigation improvement.",
-      },
-      {
-        id: 3,
-        title: "Ideate",
-        description:
-          "Sketched layout alternatives and evaluated different visual approaches based on current UI trends and user expectations.",
-      },
-      {
-        id: 4,
-        title: "Prototype & Test",
-        description:
-          "Built high-fidelity mockups in Figma and gathered client feedback for two rounds of revisions before final approval.",
-      },
-    ],
-    logo: "../assets/redesign/access-logo.png",
-    img: "../assets/landing-page/access/AccessPH.png",
   },
 ];
 

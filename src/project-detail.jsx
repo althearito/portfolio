@@ -37,8 +37,8 @@ export default function ProjectDetail() {
               />
             </div>
 
-            <div className=" text-2xl text-left font-semibold text-neutral-900 tracking-wide md:text-center md:text-4xl justify-center flex">
-              <h1 className="max-w-2xl">{project.title}</h1>
+            <div className=" text-2xl w-full text-left font-semibold text-neutral-900 tracking-wide md:text-center md:text-4xl">
+              <h1 className="max-w-2xl mx-auto">{project.title}</h1>
             </div>
           </div>
 
