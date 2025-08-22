@@ -1,4 +1,82 @@
 const projects = [
+  // FIDO --unfinished
+  {
+    id: 3,
+    isFinished: false,
+    title: "Fido – Adoption Platform for Animal Shelters in the Philippines",
+    date: "2023",
+    type: "Web App",
+    duration: "2 months",
+    team: ["Developer", "UI/UX Designer"],
+    role: ["UI/UX Designer", "User Researcher", "Prototyping"],
+    keywords: [
+      "Web Design",
+      "Animal Welfare",
+      "Accessibility",
+      "User Research",
+    ],
+    description:
+      "Fido is a responsive web platform designed to connect users with adoptable pets from verified animal shelters across the Philippines. It promotes ethical adoption by making the process accessible, inclusive, and trustworthy. The platform features filterable pet listings, informative shelter profiles, and user-friendly navigation, all designed to streamline the adoption journey. By focusing on accessibility and clarity, Fido empowers users from diverse backgrounds to discover and adopt pets with confidence while helping shelters manage adoptions more efficiently.",
+    challenge:
+      "Many animal shelters in the Philippines rely on social media to find adopters, making the process inconsistent, hard to search, and inaccessible to users without tech-savvy skills. There was a need for a centralized, user-friendly platform to streamline pet discovery, improve trust, and support shelter operations.",
+    solution:
+      "We created a mobile-responsive adoption platform with filterable pet listings, detailed shelter profiles, and accessible UI components. The design focused on inclusive language, easy navigation, and WCAG-compliant interfaces to accommodate users from various backgrounds and abilities.",
+    features: [
+      {
+        img: "../assets/placeholder.png",
+        title: "Explore Adoptable Pets",
+        description:
+          "Users can browse a curated list of available pets across shelters with filters for species, age, size, and location. Each listing includes pet details, photos, and adoption readiness status.",
+      },
+      {
+        img: "../assets/placeholder.png",
+        title: "Shelter Profiles & Ratings",
+        description:
+          "Each shelter has a dedicated profile page with contact info, social links, location map, reviews, and a list of currently available animals. This builds trust and transparency for users.",
+      },
+      {
+        img: "../assets/placeholder.png",
+        title: "Accessible & Inclusive Design",
+        description:
+          "From color contrast to button sizing, we ensured the design was WCAG-compliant. Visual hierarchy and clear CTAs guided users through the process regardless of device or ability.",
+      },
+    ],
+    design_process: "Design Thinking",
+    process: [
+      {
+        id: 1,
+        title: "Empathize",
+        description:
+          "Conducted interviews with potential adopters and shelter staff to understand their needs, frustrations with current platforms, and goals for a better adoption experience.",
+      },
+      {
+        id: 2,
+        title: "Define",
+        description:
+          "Synthesized research findings to define key user personas and identified core problems like difficulty finding pets, lack of trust in shelters, and confusing adoption steps.",
+      },
+      {
+        id: 3,
+        title: "Ideate",
+        description:
+          "Brainstormed potential features and solutions including filterable listings, shelter ratings, and guided adoption steps, focusing on improving discoverability and trust.",
+      },
+      {
+        id: 4,
+        title: "Prototype",
+        description:
+          "Created wireframes and interactive prototypes in Figma, designed with accessibility in mind, and focused on clear CTAs, hierarchy, and mobile responsiveness.",
+      },
+      {
+        id: 5,
+        title: "Test",
+        description:
+          "Gathered user feedback from mock adoption scenarios. Iterated on layout, button placement, and flow clarity based on how users interacted with the platform.",
+      },
+    ],
+    logo: "../assets/web-app/fido-logo.png",
+    img: "../assets/landing-page/fido/fido-landing-page.png",
+  },
   // FIXO
   {
     id: 1,
@@ -428,84 +506,6 @@ const projects = [
       },
     ],
     logo: "../assets/web-app/memoire-cover.png",
-    img: "../assets/placeholder.png",
-  },
-  // FIDO --unfinished
-  {
-    id: 3,
-    isFinished: false,
-    title: "Fido – Adoption Platform for Animal Shelters in the Philippines",
-    date: "2023",
-    type: "Web App",
-    duration: "2 months",
-    team: ["Developer", "UI/UX Designer"],
-    role: ["UI/UX Designer", "User Researcher", "Prototyping"],
-    keywords: [
-      "Web Design",
-      "Animal Welfare",
-      "Accessibility",
-      "User Research",
-    ],
-    description:
-      "Fido is a responsive web platform designed to connect users with adoptable pets from verified animal shelters across the Philippines. It promotes ethical adoption by making the process accessible, inclusive, and trustworthy. The platform features filterable pet listings, informative shelter profiles, and user-friendly navigation, all designed to streamline the adoption journey. By focusing on accessibility and clarity, Fido empowers users from diverse backgrounds to discover and adopt pets with confidence while helping shelters manage adoptions more efficiently.",
-    challenge:
-      "Many animal shelters in the Philippines rely on social media to find adopters, making the process inconsistent, hard to search, and inaccessible to users without tech-savvy skills. There was a need for a centralized, user-friendly platform to streamline pet discovery, improve trust, and support shelter operations.",
-    solution:
-      "We created a mobile-responsive adoption platform with filterable pet listings, detailed shelter profiles, and accessible UI components. The design focused on inclusive language, easy navigation, and WCAG-compliant interfaces to accommodate users from various backgrounds and abilities.",
-    features: [
-      {
-        img: "../assets/placeholder.png",
-        title: "Explore Adoptable Pets",
-        description:
-          "Users can browse a curated list of available pets across shelters with filters for species, age, size, and location. Each listing includes pet details, photos, and adoption readiness status.",
-      },
-      {
-        img: "../assets/placeholder.png",
-        title: "Shelter Profiles & Ratings",
-        description:
-          "Each shelter has a dedicated profile page with contact info, social links, location map, reviews, and a list of currently available animals. This builds trust and transparency for users.",
-      },
-      {
-        img: "../assets/placeholder.png",
-        title: "Accessible & Inclusive Design",
-        description:
-          "From color contrast to button sizing, we ensured the design was WCAG-compliant. Visual hierarchy and clear CTAs guided users through the process regardless of device or ability.",
-      },
-    ],
-    design_process: "Design Thinking",
-    process: [
-      {
-        id: 1,
-        title: "Empathize",
-        description:
-          "Conducted interviews with potential adopters and shelter staff to understand their needs, frustrations with current platforms, and goals for a better adoption experience.",
-      },
-      {
-        id: 2,
-        title: "Define",
-        description:
-          "Synthesized research findings to define key user personas and identified core problems like difficulty finding pets, lack of trust in shelters, and confusing adoption steps.",
-      },
-      {
-        id: 3,
-        title: "Ideate",
-        description:
-          "Brainstormed potential features and solutions including filterable listings, shelter ratings, and guided adoption steps, focusing on improving discoverability and trust.",
-      },
-      {
-        id: 4,
-        title: "Prototype",
-        description:
-          "Created wireframes and interactive prototypes in Figma, designed with accessibility in mind, and focused on clear CTAs, hierarchy, and mobile responsiveness.",
-      },
-      {
-        id: 5,
-        title: "Test",
-        description:
-          "Gathered user feedback from mock adoption scenarios. Iterated on layout, button placement, and flow clarity based on how users interacted with the platform.",
-      },
-    ],
-    logo: "../assets/web-app/fido-logo.png",
     img: "../assets/placeholder.png",
   },
 ];
